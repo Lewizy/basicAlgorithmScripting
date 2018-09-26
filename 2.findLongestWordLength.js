@@ -168,4 +168,4 @@ function findLongestWordLength(str) {
     return findLongestWordLength(str.slice(1,str.length).join(" "));
   }
 }
-findLongestWordLength("The quick brown fox jumpeed over the lazy dog");
+findLongestWordLength("The quick brown fox jumpeed over the lazy dog"); 
