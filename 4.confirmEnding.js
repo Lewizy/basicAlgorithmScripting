@@ -13,5 +13,6 @@ console.log(
 confirmEnding("Bastian", "an"));
 
 
-//The arguments of substring() represent the starting and ending indexes, while the arguments of substr() represent the starting index and the length of characters to include in the returned string.
+//The arguments of substring() represent the starting and ending indexes, 
+//while the arguments of substr() represent the starting index and the length of characters to include in the returned string.
 
