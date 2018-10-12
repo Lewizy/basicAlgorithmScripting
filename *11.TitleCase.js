@@ -9,7 +9,7 @@ function titleCase(str) {
     log(index0Upper_OthersLowerCase);
     let replace_0_wit_0_Uppercase = str.split(" ").map((val) => val.replace(val.charAt(0),val.charAt(0).toUpperCase())); 
     log(replace_0_wit_0_Uppercase.join(" "));
-    let replaceRegexEvery1stWord_toUpperCase = str.toLowerCase().replace(/(^|\s)\S/g, (val) => val.toUpperCase());
+    let replaceRegexEvery1stWord_toUpperCase = str.replace(/(^|\s)\S/g, (val) => val.toUpperCase());
     log(replaceRegexEvery1stWord_toUpperCase);//Advanced Solution
   
   
