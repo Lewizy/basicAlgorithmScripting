@@ -27,9 +27,9 @@ function mutation(arr) {
   let secondWord = arr[1].toLowerCase();
 
   for (let i in secondWord){
-    if(firstWord.indexOf(secondWord[i]) > 0) return true;
+    if(firstWord.indexOf(secondWord[i]) < 0) return false;
   }
-  return false;
+  return true;
  }
  console.log(mutation(["hello", "z"]));
 
@@ -39,9 +39,9 @@ function mutation(arr) {
   let firstWord = arr[0].toLowerCase();
   let secondWord = arr[1].toLowerCase();
   
-  for (let i in secondWord){
-    if(firstWord.includes(secondWord[i])) return true;
-  }
-  return false;
+   for (let i in secondWord){
+    if(!firstWord.includes(secondWord[i])) return false;
+    }
+  return true;
  }
  console.log(mutation(["hello", "e"]));
