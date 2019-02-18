@@ -14,7 +14,7 @@ function titleCase(str) {
   
   
 }
-log(  titleCase("Im a master of karate McCain")   );
+log(titleCase("Im a master of karate McCain"));
 
   
   //intermediate code solution
